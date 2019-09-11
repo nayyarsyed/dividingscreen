@@ -31,10 +31,8 @@ import android.widget.LinearLayout;
 
     private SimulationView mSimulationView;
     private SensorManager mSensorManager;
-    private PowerManager mPowerManager;
     private WindowManager mWindowManager;
     private Display mDisplay;
-    private WakeLock mWakeLock;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
